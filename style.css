@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,500);
+
+body {
+	margin: 0;
+	background-color: #CCC;
+	font-family: 'Rubik', sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 700px;
+	background-color: #FFF;
+	border-radius: 10px;
+
+}
+
+
+header {
+	padding: 30px;
+	background-image: url(https://images.pexels.com/photos/1083809/pexels-photo-1083809.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	position: center;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	text-decoration: none;
+	color: white;
+}
+
+p:hover {
+	color: red;
+	transition: 4s;
+	font-weight: bold;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+header p, header h1 {
+	color: white;
+	text-align: center;
+}
+
+section {
+	padding: 0 20px;
+
+}
+.about h2{
+	margin-top: 60px;
+	font-size: 28px;
+	color: #74b9ff;
+}
+ul {
+	list-style-type: square;
+}
+
+
+.intrests h2 {
+	margin-top: 40px;
+	color: #555500;
+
+}
+footer {
+	margin-top: 60px;
+	padding: 30px;
+	background-color: #636e72;
+}
+
+footer p {
+	text-align: center;
+	color: #fdcb6e;
+}
+
+footer a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #0984e3;
+}
